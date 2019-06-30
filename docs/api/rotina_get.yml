@@ -1,0 +1,7 @@
+Atualiza a cotação do dólar
+---
+tags:
+  - Cotação Dólar
+responses:
+  200:
+    description: Resultado cotação

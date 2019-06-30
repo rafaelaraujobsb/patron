@@ -1,0 +1,27 @@
+Faz o câmbio das moedas
+---
+tags:
+  - Cotação Dólar
+parameters:
+  - name: body
+    in: body
+    required: true
+    schema:
+      required:
+        - de
+        - para
+        - valor
+      properties:
+        de:
+          type: string
+          description: moeda origem
+        para:
+          type: string
+          description: moeda destino
+        valor:
+          type: integer
+          description: valor que será convertido
+responses:
+  200:
+    description: Resultado da conversão
+

@@ -1,0 +1,43 @@
+cadastra um produto
+---
+tags:
+  - Produto
+parameters:
+  - name: body
+    in: body
+    required: true
+    schema:
+      required:
+        - valor
+        - qtd
+        - ctg
+        - site
+        - modelo
+        - mtd_pg
+        - tx_cc
+      properties:
+        valor:
+          type: string
+          description: valor do produto em dólar
+        qtd:
+          type: integer
+          description: quantidade de compra
+        ctg:
+          type: string
+          description: categoria do produto
+        site:
+          type: string
+          description: site da compra
+        modelo:
+          type: string
+          description: modelo do produto
+        mtd_pg:
+          type: string
+          description: método de pagamento
+        tx_cc:
+          type: integer
+          description: taxa da compra
+responses:
+  200:
+    description: Produto cadastrado!
+

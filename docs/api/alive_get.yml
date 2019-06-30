@@ -1,0 +1,9 @@
+Verifica se a API está ON
+---
+tags:
+  - Alive
+responses:
+  200:
+    description: API está on
+  500:
+    description: Problema com o Mongo
