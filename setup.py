@@ -20,7 +20,7 @@ setuptools.setup(
     install_requires=[
         'pymongo==3.5.1',
         'flask-restful==0.3.7',
-        'flask==1.0.3',
+        'flask==2.3.2',
         'flasgger==0.9.2',
         'loguru==0.2.5',
         'requests==2.22.0'
