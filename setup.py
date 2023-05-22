@@ -23,6 +23,6 @@ setuptools.setup(
         'flask==1.0.3',
         'flasgger==0.9.2',
         'loguru==0.2.5',
-        'requests==2.22.0'
+        'requests==2.31.0'
     ]
 )
